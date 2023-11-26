@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../Fonts/Raleway-Italic-VariableFont_wght.woff") format("Web Open Font Format");
+    src: url("../Fonts/Raleway-VariableFont_wght.woff") format("Web Open Font Format");
+    src: url("../Fonts/Raleway-Italic-VariableFont_wght.ttf") format("TrueType Fonts");
+    src: url("../Fonts/Raleway-VariableFont_wght.ttf") format("TrueType Fonts");
+
+}
+ /*    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 25em;
+    margin-right: 25em;*/
+.body{
+    display: flex;
+    border-right: solid;
+    width: 1160px;
+    flex-direction: column;
+}
+
+.choc{
+    display: flex;
+}
+
+.photo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 30px black;
+}
+
+.tete{ 
+    display: flex;
+    width: 1160px;
+    margin: auto;
+    font-family: "Lato" ;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: #782221;
+}
+
+.metier{
+    display: flex;
+    font-family: "Lato";
+    color: white;
+    background-color: #782221;
+    justify-content: center;
+}
+
+.adress{
+    background-color: #2c1d27;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: "Raleway" ;
+}
+
+.complementaire{
+    display: flex;
+    background-color: #782221;
+    color: white;
+    font-family: "Raleway" ;
+    text-indent: 25px;
+
+}
+
+.principal{
+    background-color: white;
+    display: flex;
+    width: 1160px;
+    flex-direction: column;
+    text-align: justify;
+    font-family: "Lato";
+    color: #2c1d27;
+    text-indent: 25px;
+
+}
+
+.propos{
+    background-color: #dbc2a4;
+    display: flex;
+    font-family: "Lato";
+    color: #2c1d27;
+}
+
+.description{
+    display: flex;
+    font-family: "Raleway";
+    text-indent: 25px;
+}
+
+.langue{
+    background-color: #dbc2a4;
+    display: flex;
+    font-family: "Lato";
+    color: #2c1d27;
+}
+
+.centre{
+    background-color: #dbc2a4;
+    display: flex;
+    font-family: "Lato";
+    color: #2c1d27;
+}
+
+.experience{
+    display: flex;
+    background-color: #dbc2a4;
+    color: #2c1d27;
+    font-family: "Raleway";
+}
+
+.formations{
+    background-color: #dbc2a4;
+    color: #2c1d27;
+    display: flex;
+    font-family: "Raleway";
+}
+
+.competences{
+    background-color: #dbc2a4;
+    color: #2c1d27;
+    display: flex;
+    font-family: "Raleway";
+}
+
+.pied{
+    display: flex;
+    background-color: #782221;
+    border-right: solid;
+    width: 1160px;
+}
