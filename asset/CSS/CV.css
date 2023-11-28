@@ -8,28 +8,17 @@
     src: url("../Fonts/Raleway-VariableFont_wght.ttf") format("TrueType Fonts");
 
 }
- /*    margin-top: 0em;
-    margin-bottom: 0em;
-    margin-left: 25em;
-    margin-right: 25em;*/
+ 
 .body{
     display: flex;
     border-right: solid;
     width: 1160px;
     flex-direction: column;
+    margin: auto;
 }
 
 .choc{
     display: flex;
-}
-
-.photo{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 0 30px black;
 }
 
 .tete{ 
@@ -58,6 +47,7 @@
     justify-content: space-between;
     text-align: center;
     font-family: "Raleway" ;
+    place-content: center;
 }
 
 .complementaire{
@@ -134,4 +124,8 @@
     background-color: #782221;
     border-right: solid;
     width: 1160px;
+    color: white;
+    justify-content: center;
+    align-items: self-end;
+    margin: auto;
 }
